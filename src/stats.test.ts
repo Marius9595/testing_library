@@ -14,9 +14,9 @@ expected = 2;
 console.log(test_name);
 expect(expected).toBe(result);
 
-function expect(expected) {
+function expect<T>(expected: T) {
 	return {
-		toBe(result) {
+		toBe(result: T) {
 			if (result == expected) {
 				console.log('GOOD');
 			} else {
