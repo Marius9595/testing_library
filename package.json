@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "analize": "npm run lint:fix && npm run compile",
-    "compile": "tsc --noEmit",
+    "compile": "tsc",
     "compile:watch": "npm run compile -- --watch",
     "compile:build": "tsc -b",
     "lint": "eslint . --ext .ts,.tsx",

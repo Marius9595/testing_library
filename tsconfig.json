@@ -9,11 +9,12 @@
         "outDir":"./lib/"
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "**/*.test.ts" //IT SHOULDN'T INCLUDE IN PRODUCTION MODE
     ],
     "exclude": [
         "node_modules",
         "**/*.spec.ts",
-        "**/*.test.ts"
+        //"**/*.test.ts" // IT SHOULD EXCLUDE IN PRODUCTION MODE
     ]
 }
