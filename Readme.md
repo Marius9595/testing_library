@@ -1,19 +1,11 @@
-# Template - Testing Sostenible con TypeScript
+# Testing Library
 
-Plantilla base para practicar las katas del curso o para empezar un proyecto nuevo.
-
-Incluye:
-* TypeScript
-* Jest
-* ESLint
-* Prettier
-* Husky
 
 ## Instrucciones
 * `npm install`
 * `npm test`
 
-Más información sobre el curso en [testingsostenible.com](https://testingsostenible.com).
+from: [testingsostenible.com](https://testingsostenible.com).
 
 ![Testing Sostenible con TypeScript](cover.png)
 
